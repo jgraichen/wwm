@@ -1,0 +1,29 @@
+// apply a natural box layout model to all elements
+box-sizing()
+  -moz-box-sizing arguments
+  -webkit-box-sizing arguments
+  box-sizing arguments
+
+background-size()
+  -webkit-background-size arguments
+  -moz-background-size arguments
+  background-size arguments
+
+
+*, *:before, *:after
+  box-sizing border-box
+
+html, body
+  margin 0
+  padding 0
+  height 100%
+  width 100%
+
+.container
+  background-size cover
+  background-position center center
+  height 100%
+  width 100%
+
+  &.menu
+    background-image url("../res/images/menu_background.jpg")

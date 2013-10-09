@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'guard-rake'
+gem 'sprockets'
+gem 'sass'
+gem 'coffee-script'
+gem 'stylus'
+gem 'tilt'
+gem 'uglifier'
+gem 'skim'
